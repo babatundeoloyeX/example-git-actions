@@ -22,8 +22,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v6.0.2  
 
-      # - name: Install tree
-      #   run: sudo apt-get update && sudo apt-get install -y tree
+      - name: Install tree
+        run: sudo apt-get update && sudo apt-get install -y tree
 
 
       - name: List the files of the repo
