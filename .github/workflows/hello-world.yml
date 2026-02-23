@@ -6,8 +6,12 @@ on:
      branches:
        - main
 
-   # push:
-   #   branches:
+   push:
+     paths:
+       - "code/**"
+       - ".github/workflows/hello-world.yml"
+      
+     branches:
    #     - main
    # schedule:
    #   -  cron:  "*/5 * * * *"  # execute every 5 minutes
